@@ -10,7 +10,7 @@
  *   var videoTitle = videoId.getAttribute('title')
  */
 
-function init () {
+function videoGA () {
 	videoId.addEventListener('ended', videoEnd, false)
 	videoId.addEventListener('timeupdate', videoTimeUpdate, false)
 	videoId.addEventListener('play', videoPlay, false)
